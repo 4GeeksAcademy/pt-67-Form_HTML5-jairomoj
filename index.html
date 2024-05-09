@@ -12,13 +12,13 @@
 </head>
 
 <body>
-  <div class="card text-center w-75 mt-5 position-absolute top-0 start-50 translate-middle-x">
+  <div class="card text-center w-100 mt-5 position-absolute top-0 start-50 translate-middle-x">
     <div class="card-header">
       <h1 class="text-start">Payment form example</h1>
     </div>
     <div class="card-body">
       <div class="alert alert-danger" role="alert">
-        <h4 class="text-start">Some fields are missing</h4>
+        <h4 class="text-start w-100 p-1">Some fields are missing</h4>
       </div>
 
       <form action="#">
@@ -27,8 +27,8 @@
             <label for="cardNumber">
               <h4>Card #</h4>
             </label>
-            <input class="w-100 form-control" type="number" min="1111111111111111" max="9999999999999999" name="cardNumber" id="cardNumber"
-              placeholder="XXXXXXXXXXXXXXXX" required>
+            <input class="w-100 form-control" type="number" min="1111111111111111" max="9999999999999999"
+              name="cardNumber" id="cardNumber" placeholder="XXXXXXXXXXXXXXXX" required>
           </div>
 
           <div class="col-sm-12 col-md-3 col-lg-3 mb-3 text-start">
@@ -43,7 +43,8 @@
             <label for="amount">
               <h4>Amount $</h4>
             </label>
-            <input class="w-100 form-control" type="number" min="1" name="amount" id="amount" placeholder="Amount $" required>
+            <input class="w-100 form-control" type="number" min="1" name="amount" id="amount" placeholder="Amount $"
+              required>
           </div>
         </div>
 
@@ -83,11 +84,12 @@
             </select>
           </div>
 
-          <div class="col-sm-12 col-md-2 col-lg-3 mb-3 text-start">
+          <div class="col-sm-12 col-md-3 col-lg-3 mb-3 text-start">
             <label for="postalCode">
               <h4>Postal Code</h4>
             </label>
-            <input class="w-100 form-control" type="number" min="11111" max="99999" name="postalCode" id="postalCode" required>
+            <input class="w-100 form-control" type="number" min="11111" max="99999" name="postalCode" id="postalCode"
+              required>
           </div>
         </div>
 
@@ -96,7 +98,7 @@
             <label for="cardsAllowed">
               <h4>We accept:</h4>
             </label>
-            <div class="form-control bg-secondary w-50 d-flex justify-content-between">
+            <div class="form-control bg-secondary w-75 d-flex justify-content-between">
               <input type="radio" name="flexRadioDefault1" id="master" checked>
               <label class="form-check-label" for="flexRadioDefault1">
                 <i class="fa-brands fa-cc-mastercard fs-3"></i>
